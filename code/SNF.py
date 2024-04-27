@@ -76,9 +76,9 @@ A = pd.read_csv(r"adj_index.csv", index_col=0)
 
 k1, k2, k3, k4, k5 = 1546, 1, 1546, 9, 1  # 每个相似性网络的所有行的大于0.9的个数均值 SNF的K值获取
 
-piRNA_sim1 = np.loadtxt(r"DFunc.txt")
+piRNA_sim1 = np.loadtxt(r"Func.txt")
 piRNA_sim2 = np.loadtxt(r"seq_sim.txt")
-GIP_p_sim = np.loadtxt(r"DGIPKp.txt")
+GIP_p_sim = np.loadtxt(r"GIPKp.txt")
 
 GIP_d_sim = np.loadtxt(r"GIPKd.txt")
 disease_sim1 = np.load(r"sem.npy")
